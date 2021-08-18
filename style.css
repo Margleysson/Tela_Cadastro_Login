@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(33, 160, 211);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    .login {
+    flex: 1;
+    height: 100vh;
+    background-color: #ffff;
+  }
+
+  .form {
+    scrollbar-base-color: aliceblue;
+  }
+  
+  .login .section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+  }
+  
+  .login .section-2 img {
+    width: 200px;
+  }
+  
+  .section-2 form {
+    width: 300px;
+    margin-top: 80px;
+    background-image: none;
+  }
+  
+  .section-2 form h2 {
+    color: #68dd44;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #68dd44;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .section-2 form .div-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .section-2 form .div-input input {
+    margin-top: 5px;
+    border: 1px solid #68dd44;
+    border-radius: 4px;
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+  }
+  
+  .check-box label {
+    font-size: 0.9rem;
+    margin-left: 4px;
+  }
+  
+  .btn-entrar {
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: 150px;
+    height: 41px;
+    background-color: #d82e22;
+    color: rgb(20, 216, 223);
+    border: 0;
+    border-radius: 4px;
+    margin: 15px 0px 15px 90px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .section-2 a {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #0f0f0f;
+    margin-right: 100px;
+    background-image: none;
+  }
